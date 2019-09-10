@@ -11,29 +11,41 @@ html{
 body{
     margin:0;
 }
-.hero{
-    text-align: center;
-    color:#ededed;
+a{
+    text-decoration: none;
+}
+img{
+    padding-top:8px;
+}
+h1,h2,h3,h4{
     font-family: 'Roboto Slab', serif;
-    background: rgb(138,138,158);
-    background: linear-gradient(161deg, rgba(138,138,158,1) 0%, rgba(2,0,36,1) 94%, rgba(0,0,0,1) 100%);
-    padding:.5rem 0 2rem 0;
 }
 .title{
     color:white;
 }
-a{
-    text-decoration: none;
-}
-nav{
-    background-color:rgb(21, 101, 192);
-    height: 64px;
-    line-height: 64px;
-    width: 100%;
-}
 .content{
     margin:8px;
+    min-height: 100vh;
+    margin-bottom: 3rem;
 }
-h1,h2,h3,h4{
+.hero{
+    text-align: center;
+    color:#ededed;
     font-family: 'Roboto Slab', serif;
+    background: rgb(113,113,150);
+    background: linear-gradient(145deg, rgba(113,113,150,1) 0%, rgba(2,0,29,1) 100%, rgba(0,0,0,0.4427480916030534) 100%);
+    padding:.5rem 0 2rem 0;
+}
+.hero2{
+    text-align: center;
+    color:#afaeae;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(113,113,150);
+    background: rgb(105,105,152);
+    background: linear-gradient(145deg, rgba(105,105,152,0.54) 0%, rgba(2,0,29,0.67) 100%, rgba(0,0,0,0.6) 100%);
+    margin:-8px -8px 0 -8px;
+    padding:.25rem 0;
+}
+hr{
+    
 }
