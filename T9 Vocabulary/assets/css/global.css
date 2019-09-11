@@ -40,12 +40,14 @@ h1,h2,h3,h4{
     text-align: center;
     color:#afaeae;
     font-family: 'Roboto Slab', serif;
-    background: rgb(113,113,150);
     background: rgb(105,105,152);
     background: linear-gradient(145deg, rgba(105,105,152,0.54) 0%, rgba(2,0,29,0.67) 100%, rgba(0,0,0,0.6) 100%);
     margin:-8px -8px 0 -8px;
     padding:.25rem 0;
 }
 hr{
-    
+    border:none;
+    background: rgb(105,105,152);
+    background: linear-gradient(145deg, rgba(105,105,152,0.54) 0%, rgba(2,0,29,0.67) 100%, rgba(0,0,0,0.6) 100%);
+    height: 3px
 }
