@@ -2,7 +2,7 @@
 html{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: Times New Roman, serif;
+    font-family: Georgia, Times New Roman, serif;
 }
 *,*:before,*:after{
     -webkit-box-sizing: inherit;
@@ -14,8 +14,9 @@ body{
 a{
     text-decoration: none;
 }
-img{
-    padding-top:8px;
+img:not(.toc){
+    padding-top: 24px;
+    display: block
 }
 h1,h2,h3,h4{
     font-family: 'Roboto Slab', serif;
@@ -24,7 +25,7 @@ h1,h2,h3,h4{
     color:white;
 }
 .content{
-    margin:8px;
+    margin: 8px;
     min-height: 100vh;
     margin-bottom: 3rem;
 }
@@ -33,7 +34,7 @@ h1,h2,h3,h4{
     color:#ededed;
     font-family: 'Roboto Slab', serif;
     background: rgb(113,113,150);
-    background: linear-gradient(145deg, rgba(113,113,150,1) 0%, rgba(2,0,29,1) 100%, rgba(0,0,0,0.4427480916030534) 100%);
+    background: linear-gradient(145deg, rgba(113,113,150,1) 0%, rgba(2,0,29,1) 100%, rgba(0,0,0,0.44) 100%);
     padding:.5rem 0 2rem 0;
 }
 .hero2{
@@ -83,6 +84,9 @@ hr{
 }
 .toc a{
     color:inherit
+}
+.toc img{
+    padding-top: 8px;
 }
 .toc ul {
   list-style-type: none;
