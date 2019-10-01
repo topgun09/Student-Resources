@@ -1,0 +1,122 @@
+* {margin: 0; padding: 0;}
+
+div {
+  margin: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+h3 {
+  font: bold 20px Helvetica, Verdana, sans-serif;
+}
+ 
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+h3 {
+    background-color:#eff2ed;
+    
+}
+hr{
+    border:none;
+    background: rgb(105,105,152);
+    background: linear-gradient(145deg, rgba(105,105,152,0.54) 0%, rgba(2,0,29,0.67) 100%, rgba(0,0,0,0.6) 100%);
+    height: 3px
+}
+
+.class {
+    text-decoration:none;
+    color:black;
+}
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+html{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Times New Roman, serif;
+}
+*,*:before,*:after{
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+body{
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    padding-top:8px;
+}
+h1,h2,h3,h4{
+    font-family: 'Roboto Slab', serif;
+}
+.title{
+    color:white;
+}
+.content{
+    margin:8px;
+    min-height: 100vh;
+    margin-bottom: 3rem;
+}
+.hero{
+    text-align: center;
+    color:#ededed;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(113,113,150);
+    background: linear-gradient(145deg, rgba(113,113,150,1) 0%, rgba(2,0,29,1) 100%, rgba(0,0,0,0.4427480916030534) 100%);
+    padding:.5rem 0 2rem 0;
+}
+.hero2{
+    text-align: center;
+    color:#afaeae;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(105,105,152);
+    background: linear-gradient(145deg, rgba(105,105,152,0.54) 0%, rgba(2,0,29,0.67) 100%, rgba(0,0,0,0.6) 100%);
+    margin:-8px -8px 0 -8px;
+    padding:.25rem 0;
+}
+hr{
+    border:none;
+    background: rgb(105,105,152);
+    background: linear-gradient(145deg, rgba(105,105,152,0.54) 0%, rgba(2,0,29,0.67) 100%, rgba(0,0,0,0.6) 100%);
+    height: 3px
+}
+.small{
+    font-size:50%;
+    color:rgba(204, 204, 204, 0.63);
+}
+.light{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size:.85rem;
+    color:rgba(204,204,204, 0.95);
+}
+#Week1Anchor {
+}
