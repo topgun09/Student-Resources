@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         
@@ -10,8 +10,7 @@
         
     </head>
     <body>
-
-
+        
         <div class="hero">
             <h1 class="title">
                 Vocabulary For T9
@@ -30,9 +29,76 @@
             </div>
         </div>
         
+        <button onclick="topFunction()" id="upBtn" title="Go to top">Top</button>
+        
         <div class="content">
             
+        <div class="toc">
+            
+            <ul>
+                <a href="#week-1">
+                    <li> 
+                        <img src="http://pngimg.com/uploads/number1/number1_PNG14876.png" width="80" height="100">
+                        <h3 style="color: black">
+                            Week 1
+                        </h3>
+
+                        <p style="color: black">
+                            If you click this link you will be taken to a page with the first 10 assigned vocabulary words. You're Welcome!
+                        </p>
+                    </li>
+                </a>
+                    
+                <hr>
+                
+                <a href="#week-2">
+                    <li>
+                        <img src="https://myrealdomain.com/images/number-2-image-1.png" width="90" height="100">
+                        <h3>
+                            Week 2
+                        </h3>
+                        <p>
+                            If you click this link you will be taken to a page with the second 10 assigned vocabulary words. You're Welcome!
+                        </p>
+                    </li>
+                </a>
+                
+                <hr>
+                   
+                <a href="#week-3">
+                    <li> 
+                        <img src="https://i.dlpng.com/static/png/175471_preview.png" width="75" height="100">
+                        <h3>
+                            Week 3
+                        </h3>
+                        <p>
+                            If you click this link you will be taken to a page with the third 10 assigned vocabulary words. You're Welcome!
+                        </p>
+                    </li>
+                </a>
+                    
+                <hr>
+                
+                <a href="#week-4">
+                    <li> 
+                        <img src="http://pngimg.com/uploads/number4/number4_PNG15029.png" width="75" height="100">
+                        <h3>
+                            Week 4
+                        </h3>
+                        <p>
+                            If you click this link you will be taken to a page with the fourth 10 assigned vocabulary words. You're Welcome!
+                         </p>
+                    </li>
+                </a>
+                
+            </ul>
+            
+            </div>
+            
+            <br><br>
+            
             <div class="hero2">
+                <a id="week-1"></a>
                 <h2 class="title">
                     Week 1
                 </h2>
@@ -287,6 +353,7 @@
             <br><br>
 
             <div class="hero2">
+                <a id="week-2"></a>
                 <h2 class="title">
                     Week 2
                 </h2>
@@ -549,6 +616,7 @@
             <br><br>
 
             <div class="hero2">
+                <a id="week-3"></a>
                 <h2 class="title">
                     Week 3
                 </h2>
@@ -813,6 +881,7 @@
             <br><br>
 
             <div class="hero2">
+                <a id="week-4"></a>
                 <h2 class="title">
                     Week 4
                 </h2>
@@ -852,6 +921,28 @@
             <p class="light">Not done</p>
 
         </div>
+        
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("upBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.opacity = 1;
+          } else {
+            mybutton.style.opacity = 0;
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
     </body>
 
 </html>
