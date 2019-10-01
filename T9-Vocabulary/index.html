@@ -29,7 +29,7 @@
             </div>
         </div>
         
-        <button onclick="topFunction()" id="upBtn" title="Go to top">Top</button>
+        <button onclick="goToTop()" id="upBtn" title="Go to top">Top</button>
         
         <div class="content">
             
@@ -39,7 +39,7 @@
                 <a href="#week-1">
                     <li> 
                         <img src="assets/images/num1.png" width="80" height="100">
-                        <h3 style="color: black">
+                        <h3>
                             Week 1
                         </h3>
 
@@ -924,23 +924,24 @@
         
         <script>
         //Get the button
-        var mybutton = document.getElementById("upBtn");
+        var btn = document.getElementById("upBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
+        // When the user scrolls down 40px from the top of the document, show the button
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.opacity = 1;
-          } else {
-            mybutton.style.opacity = 0;
-          }
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                btn.style.display = "block";
+                btn.style.opacity = .9;
+            } else {
+                btn.style.opacity = 0;
+            }
         }
 
         // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
+        function goToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
         </script>
     </body>
